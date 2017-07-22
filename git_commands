@@ -1,0 +1,505 @@
+Last login: Sat Jul 22 10:12:43 on console
+Qaisars-Mac-mini:~ qaisar$ cd Desktop/
+Qaisars-Mac-mini:Desktop qaisar$ ls
+Demo			GoodAsOldPhones		MyPlayground.playground	ecommerceOld		git_ecommerce_prj	myvirtualenv		testGitHub
+FoodTasker		Images			ecommerce		git-fun			ios_apps		srvorderMobile		tryDjango1.8
+Qaisars-Mac-mini:Desktop qaisar$ cd ios_apps/
+Qaisars-Mac-mini:ios_apps qaisar$ ls
+ExerciseRetroCalc	PartyRockApp		SizeMeUpAgain		mvc-test		pokedex3		rainyshinycloudy	stackView
+HighEndClasses		RetroCalculator		SwappingScreens		pageTheScroll		pokedex3_v2		rainyshinycloudy_v2
+Qaisars-Mac-mini:ios_apps qaisar$ cd pokedex3_v2/
+Qaisars-Mac-mini:pokedex3_v2 qaisar$ ls
+README.md		pokedex3_v2		pokedex3_v2.xcodeproj
+Qaisars-Mac-mini:pokedex3_v2 qaisar$ ls -lta
+total 8
+drwxr-xr-x  13 qaisar  staff  442 16 Jul 06:09 .git
+drwxr-xr-x   6 qaisar  staff  204 16 Jul 05:57 .
+-rw-r--r--   1 qaisar  staff   11 16 Jul 05:57 README.md
+drwxr-xr-x  16 qaisar  staff  544 16 Jul 05:57 ..
+drwxr-xr-x   7 qaisar  staff  238 16 Jul 05:57 pokedex3_v2
+drwxr-xr-x@  5 qaisar  staff  170 16 Jul 05:57 pokedex3_v2.xcodeproj
+Qaisars-Mac-mini:pokedex3_v2 qaisar$ history
+    9  cd Documents/
+   10  ls
+   11  cd ../
+   12  ls
+   13  cd Desktop/
+   14  ;;
+   15  ll
+   16  ls -ltr
+   17  cd ecommerce
+   18  ls
+   19  pwd
+   20  cd src
+   21  ls
+   22  cd accounts/
+   23  ls
+   24  atom .
+   25  ls
+   26  pwd
+   27  cd ../
+   28  python manage.py runserver
+   29  cd ../
+   30  ls
+   31  source bin/activate
+   32  cd src
+   33  pip freeze
+   34  python
+   35  python manage.py runserver
+   36  ll
+   37  cd ../
+   38  atom .
+   39  cd src
+   40  atom .
+   41  pwd
+   42  python manage.py runserver
+   43  python manage.py makemigrations
+   44  python manage.py migrate
+   45  python manage.py makemigrations
+   46  python manage.py migrate
+   47  python manage.py runserver
+   48  python manage.py makemigrations
+   49  python manage.py migrate
+   50  python manage.py migrate
+   51  python manage.py runserver
+   52  python manage.py makemigrations
+   53  python manage.py migrate
+   54  python manage.py runserver
+   55  python manage.py makemigrations
+   56  python manage.py migrate
+   57  python manage.py runserver
+   58  python manage.py runserver
+   59  python manage.py makemigrations
+   60  python manage.py migrate
+   61  python manage.py runserver
+   62  ls -l
+   63  ls
+   64  cd Desktop/
+   65  l
+   66  cd ecommerce
+   67  l
+   68  cd src
+   69  l
+   70  cd products/
+   71  l
+   72  vim views.py
+   73  cd ../
+   74  pwd
+   75  cd ../
+   76  l
+   77  cd src
+   78  atom .
+   79  pwd
+   80  ls
+   81   source ../bin/activate
+   82  l
+   83  python manage.py makemigrations
+   84  python manage.py migrate
+   85  python manage.py runserver
+   86  python manage.py runserver
+   87  ll
+   88  cd ../
+   89  l
+   90  pwd
+   91  l
+   92  cd src/
+   93  l
+   94  ls
+   95  cd ../
+   96  ls
+   97  pip freeze
+   98  pip uninstall pyparsing
+   99  pip uninstall pytz
+  100  pip freeze
+  101  ls
+  102  rsync -a ../git_ecommerce_prj/Try-Django-1.8/static_in_env .
+  103  l
+  104  cd static_in_env/
+  105  l
+  106  cd static_root/
+  107  l
+  108  cd js
+  109  l
+  110  cd ../css/
+  111  l
+  112  cd ../
+  113  l
+  114  cd admin/
+  115  l
+  116  cd css/
+  117  l
+  118  cd ../
+  119  cd ../../
+  120  l
+  121  cd ../
+  122  l
+  123  cd src/
+  124  l
+  125  cd ecommerce/
+  126  l
+  127  cp settings.py settings.py.bak
+  128  cp ../../../git_ecommerce_prj/Try-Django-1.8/src/trydjango18/settings/base.py .
+  129  l
+  130  vim base.py
+  131  vim settings.py
+  132  pwd
+  133  cd ../
+  134  python manage.py collectstatic
+  135  l
+  136  cd ../
+  137  l
+  138  cd ../
+  139  l
+  140  cd ecommerce
+  141  cd ../ecommerceOld/
+  142  l
+  143  cd src/
+  144  l
+  145  cd ../
+  146  l
+  147  cd ../
+  148  cd ecommerce
+  149  l
+  150  cd sr
+  151  cd src
+  152  cd src
+  153  pwd
+  154  cd ../src
+  155  l
+  156  mkdir templates
+  157  cd templates/
+  158  l
+  159  vim base.html
+  160  vim navbar.html
+  161  cd ../
+  162  l
+  163  atom .
+  164  pwd
+  165  atom .
+  166  brew install terminator
+  167  terminator
+  168  which terminator
+  169  terminator
+  170  l
+  171  l
+  172  cd ../
+  173  l
+  174  mkdir git_ecommerce_prj
+  175  cd git_ecommerce_prj/
+  176  git clone https://github.com/codingforentrepreneurs/Try-Django-1.8.git
+  177  l
+  178  cd Try-Django-1.8/
+  179  l
+  180  ss
+  181  ssjkjk
+  182  lsls
+  183  s
+  184  ll
+  185  cd Desktop/
+  186  l
+  187  cd ecommerce
+  188  l
+  189  source bin/activate
+  190  ls
+  191  cd src/
+  192  l
+  193  python manage.py runserver
+  194  python manage.py collectstatic
+  195  python manage.py runserver
+  196  ls
+  197  cd Desktop/
+  198  l
+  199  cd ecommerce
+  200  l
+  201  cd sr
+  202  cd src
+  203  pwd
+  204  cd ../src
+  205  l
+  206  cd ecommerce/
+  207  l
+  208  vim settings.py
+  209  cd Desktop/
+  210  l
+  211  cd ecommerce
+  212  l
+  213  cd src
+  214  l
+  215  rsync -a ~/Desktop/tryDjango1.8/src/static_in_pro .
+  216  l
+  217  cd static_in_pro/
+  218  l
+  219  cd our_static/
+  220  l
+  221  cd ../
+  222  ll
+  223  cd ..
+  224  l
+  225  cd templates/
+  226  l
+  227  rsync -a ~/Desktop/tryDjango1.8/src/templates/*html .
+  228  mv navbar.html navbar
+  229  vim base.html
+  230  mv navbar navbar.html
+  231  vim navbar.html
+  232  cd ../
+  233  l
+  234  cd templates/ls
+  235  cd ../
+  236  l
+  237  cd static_in_env/
+  238  l
+  239  cd static_root/
+  240  l
+  241  cd admin/
+  242  l
+  243  cd ../
+  244  l
+  245  cd ../
+  246  l
+  247  cd ../
+  248  l
+  249  cd static_in_env/
+  250  l
+  251  mkdir media_root
+  252  ls
+  253  pwd
+  254  cd ../../
+  255  ll
+  256  tar cvzf ecommerce.tgz ecommerce/*
+  257  ls -ltr
+  258  rm -rf ecommerce.tgz
+  259  cd ecommerce
+  260  l
+  261  tar cvzf ecommerce.tgz static_in_env/ src/
+  262  l
+  263  ls -ltr
+  264  pwd
+  265  terminator
+  266  terminator
+  267  brew remove terminator
+  268  terminator
+  269  ls
+  270  cd Desktop/
+  271  l
+  272  mkdir git-fun
+  273  cd git-fun/
+  274  l
+  275  touch README.md
+  276  ls
+  277  vim README.md
+  278  git status
+  279  git init
+  280  l
+  281  git status
+  282  git add README.md
+  283  git status
+  284  git commit -m "first commit"
+  285  git status
+  286  vim README.md
+  287  git status
+  288  touch code.js
+  289  git staus
+  290  git status
+  291  git add -A
+  292  git status
+  293  git commit -m "modified README and add code.js"
+  294  git status
+  295  git log
+  296  git checkout ac39876
+  297  ls
+  298  vim README.md
+  299  l
+  300  ll
+  301  git branch
+  302  git checkout -b readme-oneline
+  303  git branch
+  304  :q
+  305  l
+  306  vim README.md
+  307  git checkout master
+  308  ls
+  309  vim README.md
+  310  git branch
+  311  cd
+  312  pwd
+  313  ssh-keygen -t rsa -b 4096 -C "qaisarjkhan@gmail.com"
+  314  eval "$(ssh-agent -s)"
+  315  vim ~/.ssh/config
+  316  l
+  317  ls -la
+  318  ssh-add -K ~/.ssh/id_rsa
+  319  pbcopy < ~/.ssh/id_rsa.pub
+  320  ssh -T git@github.com
+  321  cd Desktop/
+  322  l
+  323  l
+  324  ls -ltr
+  325  cd 'Test Git GUB'/
+  326  ls
+  327  git init
+  328  l
+  329  git status
+  330  git status
+  331  git remote -v
+  332  git remote add origin git@github.com:qkhan/testgit.git
+  333  git remote -v
+  334  git add -A
+  335  git status
+  336  git commit -m "Hello World"
+  337  ls
+  338  git pull origin master
+  339  ls
+  340  pwd
+  341  git pull origin master
+  342  git log
+  343  git status
+  344  git pull origin branch
+  345  git pull origin master
+  346  l
+  347  vim .git/
+  348  git pull origin master --allow-unrelated-histories
+  349  l
+  350  vim README.md
+  351  git push origin master
+  352  history
+  353  history > git_commands
+  354  l
+  355  mv git_commands git_commands.txt
+  356  vim git_commands.txt
+  357  ls
+  358  git status
+  359  ls
+  360  cd Desktop/
+  361  ;;
+  362  ll
+  363  cd ios_apps/
+  364  ll
+  365  cd ../
+  366  cd ../
+  367  s
+  368  ls
+  369  cd Desktop/
+  370  ls
+  371  cat gitc
+  372  cd git_ecommerce_prj/
+  373  ls
+  374  cd Try-Django-1.8/
+  375  l
+  376  cd ../../
+  377  ls
+  378  cd git-fun/
+  379  ls
+  380  cd ../
+  381  ls
+  382  cd ios_apps/
+  383  ls
+  384  cd RetroCalculator/
+  385  cd Desktop/
+  386  cd ios_apps/
+  387  ls
+  388  cd pokedex3/
+  389  ls
+  390  cd pokedex3
+  391  ls
+  392  cd ../
+  393  ls
+  394  git status
+  395  git init
+  396  git stat
+  397  git status
+  398  git add -A
+  399  git commit -m"First commit"
+  400  git remote add origin https://github.com/qkhan/pokedex3.git
+  401  git push -u origin master
+  402  git push -u origin master
+  403  git push -u origin master
+  404  git remote add origin https://github.com/qkhan/pokedex3.git
+  405  git push -u origin master
+  406  git push --help
+  407  git push
+  408  git push -set-upstream origin master
+  409  git push --set-upstream origin master
+  410  ls
+  411  cd ../
+  412  ls
+  413  cd ../
+  414  ls
+  415  vim 'Test Git GUB'
+  416  mv 'Test Git GUB' testGitHub
+  417  cd testGitHub/
+  418  ls
+  419  vim git_commands.txt
+  420  vim git_commands.txt
+  421  git remote add origin https://github.com/qkhan/pokedex3.git
+  422  ls
+  423  git push -u origin master
+  424  history
+  425  git status
+  426  pwd
+  427  cd ../ios_apps/
+  428  cd pokedex3/
+  429  git remote add origin https://github.com/qkhan/pokedex3.git
+  430  git push -u origin master
+  431  git pull -u origin master
+  432  git pull
+  433  git pull 511  git init
+  434    512  git stat
+  435    513  git status
+  436    514  git add -A
+  437    515  git commit -m"First commit"
+  438    516  git remote add origin https://github.com/qkhan/pokedex3.git
+  439    517  git push -u origin master
+  440    518  git push -u origin master
+  441    519  git push -u origin master
+  442    520  git remote add origin https://github.com/qkhan/pokedex3.git
+  443    521  git push -u origin master
+  444    522  git push --help
+  445    523  git push
+  446    524  git push -set-upstream origin master
+  447    525  git push --set-upstream origin master
+  448    526  ls
+  449    527  cd ../
+  450    528  ls
+  451    529  cd ../
+  452    530  ls
+  453    531  vim 'Test Git GUB'
+  454    532  mv 'Test Git GUB' testGitHub
+  455    533  cd testGitHub/
+  456    534  ls
+  457    535  vim git_commands.txt
+  458    536  vim git_commands.txt
+  459    537  git remote add origin https://github.com/qkhan/pokedex3.git
+  460    538  ls
+  461    539  git push -u origin master
+  462    540  history
+  463  cd ../
+  464  ls
+  465  cd pokedex3_v2/
+  466  ls
+  467  ls -ltr
+  468  echo "# pokedex3" >> README.md
+  469  git init
+  470  git add README.md
+  471  git commit -m"first commit"
+  472  git remote add origin https://github.com/qkhan/pokedex3_v2.git
+  473  git push -u origin master
+  474  ls
+  475  cd Desktop/
+  476  ls
+  477  cd ios_apps/
+  478  ls
+  479  cd pokedex3/
+  480  git remote add origin git@github.com:qkhan/pokedex3.git
+  481  git remote -v
+  482  git add -A
+  483  git status
+  484  git pull origin master
+  485  git pull origin branch
+  486  ssh-keygen -t rsa -b 4096 -C "qaisarjkhan@gmail.com"
+  487  eval "$(ssh-agent -s)"
+  488  vim ~/.ssh/config
+  489  ssh-add -K ~/.ssh/id_rsa
+  490  pbcopy < ~/.ssh/id_rsa.pub
+  491  pbcopy < ~/.ssh/id_rsa.pub
+  492  ssh -T git@github.com
